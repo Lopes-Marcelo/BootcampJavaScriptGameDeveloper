@@ -1,0 +1,199 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* BARRA DE NAVEGACAO */
+.bar {
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    right: 0;
+    padding: 0px 4%;
+}
+
+header nav a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header nav a:hover {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    transition: .3s ease all;
+
+}
+
+.logo {
+    font-family: Luminari;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* FILME PRINCIPAL */
+
+.filme-principal {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa-st.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 4%;
+}
+
+.filme-principal .titulo {
+    margin-top: 45%;
+    font-size: 40px;
+}
+
+.filme-principal .descricao {
+    width: 450px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+.btn {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.btn i {
+    margin-right: 11px;
+}
+
+/* CARROSEL DE FILMES */
+
+.slide {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel {
+    margin-top: -35px;
+    background: linear-gradient(rgba(0, 0, 0, .658), rgba(0, 0, 0, 0.658)100%);
+    border: none;
+    margin-bottom: 0;
+    padding: 0 1%;
+}
+
+span {
+    font-size: 60px;
+    padding: 0 40px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+/* CATEGORIAS */
+
+section .container {
+    padding: 0 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoria {
+    padding: 0 2%;
+}
+
+.container img {
+    margin: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.adicionados:hover,
+.alta:hover,
+.series:hover,
+.animacao:hover {
+    transition: .5s ease all;
+    transform: scale(1.1);
+}
+
+
+
+h3 {
+    margin: 10px 0px 10px 0px;
+
+}
+
+/* FOOTER - INFORMACOES */
+
+footer .info {
+    display: flex;
+    justify-content: center;
+}
+
+footer .info ul {
+    margin-top: 30px;
+    list-style: none;
+    font-size: 13px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.info ul li {
+    margin-right: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 600px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    
+}
