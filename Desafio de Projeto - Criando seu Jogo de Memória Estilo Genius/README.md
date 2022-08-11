@@ -1,6 +1,6 @@
 # Desafio de Projeto - Criando seu Jogo da Memória no Estilo Genius
 
-Nesse projeto será desenvolvido uma forma simples do clássico jogo da cobrinha utilizando HTML, CSS e JavaScript. Tendo em vista um conhecimento prévio de como a linguagem de marcação para a construção de páginas web (HTML), o mecanismo CSS e a linguagem de programação interpretada estruturada JavaScript funcionam, o projeto tem o objetivo de construir um jogo básico da cobrinha utilizando esses três componentes.
+Nesse projeto será desenvolvido uma forma simples do clássico jogo da memória estilo genius utilizando HTML, CSS e JavaScript. Tendo em vista um conhecimento prévio de como a linguagem de marcação para a construção de páginas web (HTML), o mecanismo CSS e a linguagem de programação interpretada estruturada JavaScript funcionam, o projeto tem o objetivo de construir um jogo básico da memória estilo genius utilizando esses três componentes.
 
 ## HTML
 
