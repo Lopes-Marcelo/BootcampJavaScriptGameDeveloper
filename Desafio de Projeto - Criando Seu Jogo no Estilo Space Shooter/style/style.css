@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #1D2951;
+    background-image: url(/img/space.png);
+}
+
+a,
+a:active {
+    color: rgb(183, 193, 207);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    align-items: center;
+    background-color: #1D2951;
+    color: #fff;
+    display:flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    flex-direction: column;
+}
+
+a{
+    color: yellowgreen;
+}
+
+nav li {
+    display: block;
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(/img/space.png);
+    height: 600px;
+    width: 900px;
+    overflow: hidden;
+}
+
+.game-instructions {
+    text-align: center;
+    color: white;
+    left: 7rem;
+    top: 0px;
+}
+
+.start-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+    
+.start-button:hover {
+    cursor: pointer;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
+
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
