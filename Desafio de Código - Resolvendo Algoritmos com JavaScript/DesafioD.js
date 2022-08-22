@@ -3,11 +3,11 @@ let N = parseInt(s[0]);
 let M = parseInt(s[1]);;
             
 for (let j = 0; j < M; j++) { 
-    let acao = "clicou"; "fechou";
+    let acao = gets();
     if (acao == "fechou"){
         N++;
     }
-    else if (acao == "clicou"){
+    else{
         N--;
     }
 }
