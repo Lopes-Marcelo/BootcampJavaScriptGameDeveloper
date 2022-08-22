@@ -15,6 +15,7 @@ Leia 10 nomes, sem espaço em branco;
 Imprima o terceiro nome da lista;
 Imprima o sétimo nome da lista;
 Imprima o nono nome da lista.
+
 Entrada
 A entrada consiste vários arquivos de teste, cada um com dez linhas e em cada linha tem um nome de no até 30 caracteres e sem espaço em branco. Conforme mostrado no exemplo de entrada a seguir.
 
