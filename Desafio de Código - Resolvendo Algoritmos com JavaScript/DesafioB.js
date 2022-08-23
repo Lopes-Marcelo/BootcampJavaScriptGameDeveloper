@@ -1,9 +1,9 @@
 let T = parseInt(gets());
 
-for(let i = 0; i < T; i++){
+for(let i = 0; i < T ; i++){
   var s = gets().split(" ");
-  let N = parseInt([0]);
-  let K = parseInt([1]);
+  let N = parseInt(s[0]);;
+  let K = parseInt(s[1]);;
 
   var total = (N % K) + (N / K);
   print(Math.trunc(total));
