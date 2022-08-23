@@ -19,7 +19,7 @@ Faça um programa que calcule e imprima o salário a ser transferido para um fun
 Para realizar o calculo receba o valor bruto do salário e o adicional dos benefícios.
 O salário a ser transferido é calculado da seguinte maneira: 
 
-     Valor Bruto do salário - Percentual de Imposto Mediante a Faixa Salarial + Adicional dos Benefícios
+    Valor Bruto do salário - Percentual de Imposto Mediante a Faixa Salarial + Adicional dos Benefícios
 
 Para calcular o percentual de imposto segue as aliquotas:
 
